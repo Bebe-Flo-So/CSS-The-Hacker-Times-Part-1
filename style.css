@@ -1,40 +1,46 @@
 body {
     background-color: #eee;
     font-family: 'source sans pro';
+    padding: 8px;
+    border-radius: 4px;
 }
 
 .newspaper-container {
     width: 700px;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 10px, #ddd;
     background-color: white;
     padding: 4px;
     margin: auto;
-
 }
 
 h1 {
     text-align: center;
-    font-family: 'abril fatface';
+    font-family: 'abril fatface'; 
 } 
+h2 { 
+    font-family: 'Roboto slab';
+    margin-left: 10px;
+}
 
 li {
     list-style: none;
     margin: none;
     display: inline-block;
-    padding: 4px;
+    padding: 1px;
 
 } 
 
 ul {
     border-top: solid 1px lightgray;
     border-bottom: solid 1px lightgray;
+    margin-right: 10 px;
+    
 }
 
 a {
     text-decoration: none;
     color: lightgray;
-
 }
 
 a:hover {
@@ -43,17 +49,20 @@ a:hover {
 
 p {
  font-family: roboto Slab;
+ color: black;
+ padding: 10px;
 }
 
 .more-articles {
     display: inline-flex;
     border-top: solid lightgray;
+    padding: 4px;
 
 }
 
 section {
     width: 50%;
-    margin: 10px;
+    margin: 5px;
 }
 
 h4 {
@@ -65,4 +74,16 @@ h4 {
 
 h5 {
     color: red;
+    font-size: large;
+    font-family:'abril fatface';
+    padding-left: 5px;
+    margin-left: 10px;
+    
 }
+ #laptop { 
+    margin: 40px;
+}
+nav {
+    margin: 10px;
+}
+
